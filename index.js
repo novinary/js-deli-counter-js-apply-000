@@ -16,6 +16,7 @@ tell them that. Don't get their hopes up by telling them they are number 6 in li
   console.log(line,name);
 } */
 
+var num = 1; 
 
 function takeANumber(line)
 {
@@ -23,7 +24,7 @@ function takeANumber(line)
   
   line.push(num)
   
-  var num = 1; 
+  
   num++;
   
   
