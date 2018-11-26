@@ -7,14 +7,30 @@ The function, takeANumber, should accept two paramaters:
  These are normal people. If they are 7th in line,
 tell them that. Don't get their hopes up by telling them they are number 6 in line. **/
 
-function takeANumber(line, name)
+/* function takeANumber(line, name)
 {
   line.push(name)
 
   return `Welcome, ${name}. You are number ${line.length} in line.`
 
   console.log(line,name);
+} */
+
+
+function takeANumber(line)
+{
+  // keep track of people based on number for each person
+  
+  line.push(num)
+  
+  var num = 1; 
+  num++;
+  
+  
 }
+
+
+
 
 /*
 Build a function nowServing. This function should accept the current
